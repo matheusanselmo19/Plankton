@@ -31,9 +31,9 @@ _For more details visit_ [RASC](https://www.braziliansinrobotics.com/)
  The underwater challenge will be fulfilled in the execution of the go-to-goal task. Vehicles must travel to a certain point in the environment. Upon reaching the specified point, the ROV with the camera will capture a photo of a sphere that will close to this point. After capturing the image, to complete the mission the vehicle will have to return to the starting position of the mission. To facilitate the execution of the challenge, it is recommended to build a [state machine](developer.mozilla.org/en-US/docs/Glossary/State_machine) in C++ or Python.
 
 
-![MarineGEO circle logo](/picutures/underwatermission.png "MarineGEO logo")
+![The challenge](/picutures/the_mission.png "The challenge")
 
- The vehicle to be simulated will be the RexROV present in [repository](https://github.com/Liquid-ai/Plankton). The Ubuntu 20.04 and ROS2 Foxy version will are going to be used.
+ The vehicle to be simulated will be the RexROV present. The Ubuntu 20.04 and ROS2 Foxy version will are going to be used.
 
 ## First Things First. 
 

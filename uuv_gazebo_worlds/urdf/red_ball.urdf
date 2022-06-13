@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="ball_link">
+   <!--<joint name="ball_joint" type="fixed">
+    <origin xyz="-1 -1 -1" rpy="0 0 3.1416"/>
+    <parent link="world"/>
+    <child link="ball_link"/>
+   </joint>-->
+  
+  <link name="ball_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.5"/>
+      </geometry>
+      <material name="red_ball">
+            <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+</robot>
